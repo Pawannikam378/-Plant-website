@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  rel="stylesheet">
+    <!--fontawsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+             
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!--custome css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indoor plants</a></li>
+              <li><a class="dropdown-item" href="#">Money plants</a></li>
+              <li><a class="dropdown-item" href="#">Ornaments</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact us">Contact Us</a>
+          </li>
+        </ul>
+       <button type="button" class="btn btn-nav">Login / Register </button>
+      </div>
+    </div>
+  </nav>
+
+  <!--lets make banner -->
+
+    <section class="banner-sec">
+      <img src="images/header-img.jpg" alt="" class="img">
+      <div class="container">
+        <div class="header-main">
+           <div class="header-main">
+            <h4>Sale upto 30% off/-</h4>
+            <h1>Give te gift <span>of greenery</span></h1>
+            <p>Lorem ipsm dolor sit amet consectetur adipisicing elit.Doloribus voluptas ea accusamus! 
+              Lobore repellendus ad iste nisi similique,cum quos.</p>
+            <button type="button" class="btn btn-nav">Shop All Plants</button>
+            <button type="button" class="btn btn-nav bg-dark">Read More</button>
+           
+        </div>
+      </div>
+    </section>
+  
+
+  <!--lets make about section -->
+  <section class="py-5 about-sec" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center">
+          <div class="ab-img"><img src="images/about-img.png" alt=""></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-txt">
+            <div class="title">
+              <h6>About us</h6>
+              <h2>Decorate your <span>Home with plants</span></h2>
+            </div>
+            <p>As India’s largest and most trusted online plant nursery and gardening store, 
+              Ugaoo is here to bring you only the best for all your gardening and plant needs. 
+              From exotic indoor plants for your homes to flowering plants and succulents for your
+               ornamental gardens, we bring you all the plants you may want! We also specialize in 
+               the highest quality seeds, organic fertilizers, premium pots and planters, and garden
+                tools for effective plant care. So, turn a new leaf and start your gardening journey with Ugaoo!</p>
+            <p>Lorem ipsum dolor sit amt consectetur elit. Sapiente soluta dicta quas vel
+               labborum sequi natus quasi, doloribus voluptas suscupit excepturi nihil. Nemo rem
+               placeat cupiditate ut nihil tenetur fuga,magni unde non nulla.</p>
+            <button type="button" class="btn btn-nav">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="icon-boxes mt-5">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="icon-box">
+              <img src="images/icon-1.png" alt="">
+              <h6>Purew Air</h6>
+              <p>Lorem ipsum dolor sit amt consectetur elit. Reprehenderit, earum.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="icon-box">
+              <img src="images/icon-2.png" alt="">
+              <h6>Ceramic pots</h6>
+              <p>Lorem ipsum dolor sit amt consectetur elit. Reprehenderit, earum.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="icon-box">
+              <img src="images/icon-3.png" alt="">
+              <h6>Herb seeds</h6>
+              <p>Lorem ipsum dolor sit amt consectetur elit. Reprehenderit, earum.</p>
+            </div>
+          </div><div class="col-md-3">
+            <div class="icon-box">
+              <img src="images/icon-4.png" alt="">
+              <h6>Affordable</h6>
+              <p>Lorem ipsum dolor sit amt consectetur elit. Reprehenderit, earum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--now make product box-->
+
+  <section class="py-5 product-sec" id="product">
+    <div class="container">
+      <div class="title text-center w-75 mx-auto">
+      <h6>Our Service</h6>
+      <h2>Find the best <span>Deals from plants for you</span></h2>
+      <p>Lorem ipsum dolor sit amt consectetur adipisicing elit. consectetur, alias aliquid. consectetur ea
+        magnam ad temporibus recusandae fugit, deleniti nam.
+      </p>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-1.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Alique furniture</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-2.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Commodo furniture</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-3.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Indoor plants</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-4.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Autumn special</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-5.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>American marigold</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-6.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Ornaments</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-7.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Alique furniture</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-box">
+          <div class="pr-img"><img src="images/service-8.jpg" alt=""></div>
+          <div class="pr-icon">
+            <ul>
+              <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+            </ul>
+          </div>
+          <div class="pr-txt">
+            <h5>Money plants</h5>
+            <span class="price">$35.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+   <!--Now make a another section -->
+    <section class="bg-section">
+    <div class="container">
+    <div class="row align-items-center">
+       <div class="col-lg-8">
+        <div class="bg-text">
+          <h2>Transform your space<span> With indoor plants</span> </h2>
+          <p>Lorem ipsum dolor sit amt consectetur elit. Aliquid quod, odio ut rerum sed
+            ratione autem quibusdm, a porro provident similique evenietpossimus, dicta voluptas natus totam
+            ad est voluptates?
+          </p>
+        </div>
+       </div>
+       <div class="col-lg-4 text-end">
+        <button type="button" class="btn btn-nav">Book Your Plants</button>
+       </div>
+    </div>
+  </div>
+</section>
+
+     <!--Now we make the gallery section-->
+
+     <section class="gallery py-5" id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="gallery-box">
+              <div class="gal-img"><img src="images/gallery-1.jpg" alt=""></div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="gallery-box">
+                <div class="gallery-box"><img src="images/gallery-2.jpg" alt=""></div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="gallery-box">
+                  <div class="gallery-box"><img src="images/gallery-4.jpg" alt=""></div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                  <div class="gallery-box">
+                    <div class="gallery-box"><img src="images/gallery-3.jpg" alt=""></div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--Now we make the testimonials-->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="title text-center w-75 mx-auto">
+      <h6 class="section-title text-center">Testimonials</h6>
+      <h2 class="section-title text-center">What people <span>Are Saying</span></h2>
+      <p class="section-title text-center">"Lorem, pain is in the field of professional service. He hates enduring everything, hates what is right and just."</p>
+    </div>
+  </div>
+
+      <div class="section-content">
+         <div class="slider-container swiper">
+             <div class="slider-wrapper">
+                 <ul class="testimonials-list swiper-wrapper">
+                     <li class="testimonial swiper-slide">
+                         <img src="images/user-7.jpeg" alt="user" class="user-image">
+                         <h3 class="name">Rushi Bhau Shendge </h3>
+                         <i class="feedback">"Loved the French roast. Perfectly 
+                             balanced and rich. Will order again!"
+                         </i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                         <img src="images/user-6.jpg" alt="user" class="user-image">
+                         <h3 class="name">Rohan Pawar </h3>
+                         <i class="feedback">"Great espresso blend! Smooth and bold
+                             flavor. Fast shipping too!"
+                         </i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                         <img src="images/user-3.jpg" alt="user" class="user-image">
+                         <h3 class="name">MichaelBrown </h3>
+                         <i class="feedback">"Fantasic mocha flavor. Fresh and 
+                             aromatic. Quick shipping!"
+                         </i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                         <img src="images/user-4.jpg" alt="user" class="user-image">
+                         <h3 class="name">Emily Harris </h3>
+                         <i class="feedback">"Excellent quality! Fresh beans and 
+                             quick delivery. Highly recommend."
+                         </i>
+                     </li>
+                     <li class="testimonial swiper-slide">
+                         <img src="images/user-2.jpg" alt="user" class="user-image">
+                         <h3 class="name">James Wilson  </h3>
+                         <i class="feedback">"Best decaf I've tried! Smooth and 
+                             flavorful. Arrived promptly"
+                         </i>
+                     </li>
+                 </ul>
+                 <div class="swiper-pagination"></div>
+                 <div class="swiper-slide-button swiper-button-prev"></div>
+                 <div class="swiper-slide-button swiper-button-next"></div>
+             </div>
+         </div>
+      </div>
+ </section>
+
+     <!--now make a blog sec-->
+
+     <section class="blog-sec py-5" id="blogs">
+      <div class="container">
+        <div class="title text-center w-75 mx-auto">
+        <h6>Blogs</h6>
+        <h2>Our<span> Blogs</span></h2>
+        <p>"Pain itself is love, sitting at the heart of the truth, in the course of living. 
+          Hating the whole of it, even justly, is to be avoided."</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="blog-card">
+          <div class="card-img"><img src="images/pic1.jpg" alt=""></div>
+          <div class="card-text">
+            <h5>How to plants a succulent</h5>
+            <p>"Plant website blogs can include plant care guides, detailed species profiles, pest 
+              control tips, indoor and outdoor gardening advice, sustainable gardening practices."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog-card">
+        <div class="card-img"><img src="images/pic2.jpg" alt=""></div>
+        <div class="card-text">
+          <h5>How to plants a succulent</h5>
+          <p>"Pain itself is love, sitting at the heart of the truth, in the course of living. 
+            The involvement of certain peaks is hated by the inventor, avoiding it as a result."</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="blog-card">
+      <div class="card-img"><img src="images/pic3.jpg" alt=""></div>
+      <div class="card-text">
+        <h5>How to plants a succulent</h5>
+        <p>""Discover eco-friendly plant care tips to reduce waste! From sustainable planters to 
+          organic fertilizers, learn how small changes in your routine can help your plants thrive."</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+     </section>
+
+     <!--now make a footer -->
+     <section class="conatact us py-5" id="conatct us">
+     <footer class="footer">
+     <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-img w-75">
+              <img src="images/logo.png" alt="">
+              <p class="mt-4">"Pain itself is love, sitting at the heart of the truth, in the course of living. 
+                The involvement of certain peaks is hated by the inventor, avoiding it as a result."</p>
+            
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="f-title"><h3>Quick links</h3></div>
+            <ul class="f-links">
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#home">Home</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#about">About</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#blogs">Blogs</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#products">Products</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="#contact">Contact</a></li>
+          </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="f-title"><h3>Products</h3></div>
+            <ul class="f-links">
+              <li><i class="fa-solid fa-chevron-right"></i><a href="">Ornaments</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="">Indoor plants</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="">Money</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="">Flowers</a></li>
+              <li><i class="fa-solid fa-chevron-right"></i><a href="">Herbs</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <div class="f-title"><h3>Contact Us</h3></div>
+          <ul class="f-list">
+            <li><i class="fa-solid fa-location-dot"></i><a href=""> 2nd Floor, Banjara Hills, Hyderabad, Telangana, India.</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="">+91 8010 712 015</a></li>
+            <li><i class="fa-solid fa-envelope"></i><a href="">info@greenhouseplants.com</a></li>
+        </ul>
+      </div>
+        </div>
+      </div>
+    </footer>
+     </section>
+    <div class="copyrights">
+      <a href="">Copyrights Reserved @2025 Green House:</a>
+    </div>
+ 
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+    <!--bootstrap js link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
