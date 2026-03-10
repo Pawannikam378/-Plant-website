@@ -11,10 +11,13 @@ Hello and welcome! I'm passionate about technology, innovation, and building imp
 
 Thanks for visiting! 🚀  
 Feel free to check out my work, connect with me, or collaborate!
-Thank you
+
 
 ## 👤 Author
 
 Your Name: Pawan Nikam
 Final Year Engineering Student  
 Focused on Data Science, Quantitative Analysis & Systems Engineering
+
+⭐ *Always building. Always learning.*
+Thank you 
